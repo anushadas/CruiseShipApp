@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    android:scrollbars="vertical"
+    tools:context="com.cruise.preetika.cruiseapp.classes.Room_booking_info">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="287dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Services"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stroke"
+        android:gravity="center_vertical|start"
+        android:padding="10dp"
+        android:text="Room Cleaning Service                             $50"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:background="@drawable/stroke2"
+        android:drawableRight="@drawable/d"
+        android:gravity="center_vertical|start"
+        android:padding="10dp"
+        android:text="Food Service"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <CheckBox
+            android:id="@+id/cbBreakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breakfast                                                  Free"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/bfstDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text=" *Morning Pastries and Griddles\n * Eggs\n * Beverages" />
+
+        <CheckBox
+            android:id="@+id/cbLunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunch                                                          $80"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/lnchDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" *New York Steak\n * Bacon and Cheese Burger\n * Ravioli" />
+
+        <CheckBox
+            android:id="@+id/cbDinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinner                                                         $80"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/dinDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" *Peking Duck\n *Ceasar Salad\n *Mac and Cheese" />
+
+        <Button
+            android:id="@+id/btnOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_blue_light"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="Order"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:layout_marginTop="@dimen/padding10"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/assistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stroke3"
+        android:gravity="center_vertical|start"
+        android:padding="10dp"
+        android:text="Assistance"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Alaska Cruise Line</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="a_title">Alaska Cruise</string>
+    <string name="message_1">WELLCOME ON CRUISE</string>
+
+
+    <string name="onBoardActs">On Board Activities</string>
+    <string name="PortsOfCall">Ports Of Call</string>
+    <string name="onBoardAct1">Fireworks</string>
+    <string name="POC1">Hubbard Glacier</string>
+    <string name="POC2">Icy Strait Point</string>
+    <string name="POC3">Juneau</string>
+    <string name="onBoardAct2">Cooking Competition</string>
+    <string name="onBoardAct3">Swimming</string>
+    <string name="detailAndBook">View details and book</string>
+    <string name="back">Back</string>
+    <string name="bookIt">Book It</string>
+    <string name="numOfPeople">Number of People</string>
+    <string name="when">When</string>
+    <string name="nameOfPerson">Name of Person</string>
+    <string name="descAct1">You’ll have the best seats in the house to watch this internationally-acclaimed fireworks festival.</string>
+    <string name="descAct2">Watch from the edge of your seat as they compete for the coveted Best Chef honours for the day.</string>
+    <string name="descAct3">Nowadays, most cruise ships have a swimming pool where you can splash around in the open air. They tend to be busy during summer, but it’s worth taking a dip.</string>
+    <string name="poc1Desc">Behold a jaw-dropping natural wonder and the largest calving glacier in North America.</string>
+    <string name="poc2Desc">Venture to this scenic destination rumored to have the best whale watching in the state!</string>
+    <string name="poc3Desc">With its rugged mountains, sweeping glaciers and lush rainforests, Juneau is a scenic wonderland everywhere you look.</string>
+    <string name="reservation">Reservation</string>
+    <string name="POCage">All ages</string>
+    <string name="POCprice">$500.00</string>
+    <string name="POCtime">9:00 am</string>
+    <string name="Act1age">All ages</string>
+    <string name="Act2age">7+ ages</string>
+    <string name="Act3age">3+ ages</string>
+    <string name="Actprice">$20.00</string>
+    <string name="ActTime">10:00 am</string>
+    <string name="FAdesc">Begin and end your cruise in beautiful Vancouver. Gaze upon natural wonders and
+        sweeping vistas from the comfort of your Disney cruise ship, as you gently glide through the Tracy Arm fjord.
+        Step into Alaska’s backcountry with a visit to Ketchikan, where you can stroll through authentic totem pole parks.
+        Then spend an invigorating day at sea before returning to the largest city in British Columbia and the hustle of everyday life.</string>
+    <string name="ITdep">Departs From: Vancouver(British Columbia), Canada</string>
+    <string name="ITsail">Sails on: Disney Wonder</string>
+    <string name="FApoc">Vancouver (British Columbia), Canada, Tracy Arm, Alaska, Ketchikan, Alaska</string>
+    <string name="FBpoc">Vancouver (British Columbia), Canada, Hubbard Glacier, Sitka </string>
+
+
+    <string name="action_settings">Settings</string>
+    <string-array name="Age_Group">
+        <item>0-10</item>
+        <item>10-18</item>
+        <item>18-35</item>
+        <item>35-60</item>
+        <item>Above 60</item>
+    </string-array>
+    <string-array name="Deck_Selection">
+        <item>Deck 1- POSEIDON</item>
+        <item>Deck 2- DIONYSUS</item>
+        <item>Deck 3- VENUS</item>
+        <item>Deck 4- APOLLO</item>
+        <item>Deck 5- OURANOS</item>
+        <item>Deck 6- HERA</item>
+        <item>Deck 7- ZEUS</item>
+        <item>Deck 8- PANORAMIC</item>
+    </string-array>
+    <string-array name="count">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+
+    </string-array>
+    <string name="title_activity_invoice">Invoice</string>
+</resources>

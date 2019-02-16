@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Profile Settings" />
+        <item
+            android:id="@+id/nav_book_room"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Book Room" />
+        <item
+            android:id="@+id/nav_ports"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Ports of call" />
+        <item
+            android:id="@+id/nav_activities"
+            android:icon="@drawable/ic_menu_send"
+            android:title="On board activities" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="?android:attr/actionModePasteDrawable"
+            android:title="Services" />
+
+        <item
+            android:id="@+id/generate_invoice"
+            android:icon="?android:attr/actionModePasteDrawable"
+            android:title="Generate Invoice"
+            />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="?attr/actionModeCloseDrawable"
+            android:title="Logout" />
+    </group>
+
+</menu>
